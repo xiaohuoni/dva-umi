@@ -1,5 +1,6 @@
-# 风控管理
+# DVA-UMI
 1.0版本
+
 ## 开发构建
 
 ### 目录结构
@@ -46,20 +47,23 @@
 
 克隆项目文件:
 
+## Usage
+
 ```bash
-git clone https://gitee.com/tenghaixinyong/risk.git
+$ git clone https://github.com/xiaohuoni/dva-umi.git
+$ cd dva-umi
+$ npm install
+$ npm start         # visit http://localhost:8000
 ```
 
-进入目录安装依赖:
+Or you can use the command tool: [oni-cli](https://github.com/xiaohuoni/oni-cli)
 
 ```bash
-npm i 或者 yarn install
-```
-
-Start dev server.
-
-```bash
-$ npm start
+$ npm install oni-cli -g
+$ oni new myapp
+$ cd myapp
+$ npm install
+$ npm start         # visit http://localhost:8000
 ```
 
 Build.

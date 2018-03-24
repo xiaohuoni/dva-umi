@@ -1,13 +1,32 @@
-import styles from './index.less';
+import styles from "./index.less";
+import { Layout, Menu, Breadcrumb } from "antd";
+import Link from 'umi/link';
+const { Header, Content, Footer } = Layout;
 
-const Layout = (props) => {
+const App = props => {
   return (
     <div>
-    {props.children}
-  </div>
+      <Layout className="layout">
+        <Header>
+          <div className="logo" />
+          <Menu
+            theme="dark"
+            mode="horizontal"
+            defaultSelectedKeys={["2"]}
+            style={{ lineHeight: "64px" }}
+          >
+            <Menu.Item key="1"><Link to="/">首页</Link></Menu.Item>
+            <Menu.Item key="2"><Link to="/content">多路由</Link></Menu.Item>
+            <Menu.Item key="3"><Link to="/example">其他</Link></Menu.Item>
+          </Menu>
+        </Header>
+        {props.children}
+        <Footer style={{ textAlign: "center" }}>
+          Ant Design ©2016 Created by Ant UED
+        </Footer>
+      </Layout>
+    </div>
   );
 };
 
-export default Layout;
-
-
+export default App;

@@ -9,16 +9,16 @@
   "dependencies": {
     "dva": "^2.1.0",
     "mockjs": "^1.0.1-beta3",
-    "umi": "^1.0.0-0",
-    "umi-plugin-dva": "^0.1.5"
+    "umi": "^1.1.1",
+    "umi-plugin-dva": "^0.4.0"
   },
   "devDependencies": {
-    "eslint": "^4.14.0",
-    "eslint-config-umi": "^0.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-umi": "^0.1.4",
     "eslint-plugin-flowtype": "^2.34.1",
     "eslint-plugin-import": "^2.6.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.1.0",
-    "husky": "^0.12.0"
+    "husky": "^0.14.3"
   }
 }

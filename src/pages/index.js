@@ -1,16 +1,6 @@
-import React from 'react';
-import { connect } from 'dva';
-import styles from './index.css';
-import { NavBar, Icon } from 'antd-mobile';
-function IndexPage() {
-  return (
-    <div>
-      <NavBar mode="light">NavBar</NavBar>
-    </div>
-  );
+import { Rate } from 'antd';
+const App=props=>{
+  return (<Rate allowHalf defaultValue={2.5} />)
 }
 
-IndexPage.propTypes = {
-};
-
-export default connect()(IndexPage);
+export default App;

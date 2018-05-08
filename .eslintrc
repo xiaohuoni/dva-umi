@@ -2,6 +2,7 @@
   "extends": "umi",
   "rules":{
     "require-yield":0,
-    "no-extend-native":0
+    "no-extend-native":0,
+    "jsx-a11y/href-no-hash":0
   }
 }

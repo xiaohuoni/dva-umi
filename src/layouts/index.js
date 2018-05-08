@@ -1,7 +1,6 @@
-import styles from "./index.less";
-import { Layout, Menu, Breadcrumb } from "antd";
+import { Layout, Menu } from "antd";
 import Link from 'umi/link';
-const { Header, Content, Footer } = Layout;
+const { Header,  Footer } = Layout;
 
 const App = props => {
   return (

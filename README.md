@@ -1,5 +1,6 @@
 # DVA-UMI
 1.0版本
+<img src="./src/assets/a.png"/>
 ## 版本更新
 ### 2018.03.24
 - 1.更新umi1.1.1

@@ -3,8 +3,9 @@ import {Button} from 'antd';
 const Example = ({list,handleClick}) => {
   return (
     <div>
-      Example  work
+      Example  work:
       <Button type="danger" onClick={handleClick} >Example</Button>
+      <p>Mock Data:</p>
       { JSON.stringify(list)}
     </div>
   );

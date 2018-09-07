@@ -1,5 +1,5 @@
 import { connect } from "dva";
-import styles from "./page.less";
+import styles from "./index.less";
 import { Button } from "antd";
 import Example from "./components/Example";
 import { Rate, Row, Col } from "antd";

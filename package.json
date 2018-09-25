@@ -3,7 +3,7 @@
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
-    "lint": "eslint --ext .js src test",
+    "lint": "eslint --ext .js src test"
   },
   "dependencies": {
     "umi": "*",
